@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+     
+    <title>LucasFlix</title>
+</head>
+<body>
+    <div class="nav" id="nav">
+        <h1>LucasFlix</h1>
+        <img class="nav_logo" src="./media/img/logo.jpg" alt="">
+    </div>
+    <header class="banner">
+        <div class="banner__contents">
+            <h2 class="banner__title">
+                Oppenheimer
+            </h2>
+            <div class="banner__buttons">
+                <a href="#"><button class="banner__button">Assistir</button></a>
+                <a href="#"><button class="banner__button">Minha Lista</button></a>
+            </div>
+            <h2 class="banner__description">O físico J. Robert Oppenheimer trabalha com uma 
+                equipe de cientistas durante o Projeto Manhattan, levando ao desenvolvimento da 
+                bomba atômica.
+            </h2>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header>
+    <div class="row">
+        <h3>Biografias</h3>
+        <div class="row__posters">
+            <a href="ferrari.html"><img class="row__poster row__posterLarger" src="./media/img/ferrari_ver3.jpg" alt=""></a>
+            <a href="bobmarley.html"><img class="row__poster row__posterLarger" src="./media/img/Bob_Marley_One_Love.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Comédia</h3>
+        <div class="row__posters">
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/underdoggs.jpeg" alt=""></a>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Terror</h3>
+        <div class="row__posters">
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+        </div>
+    </div>
+        <div class="row">
+        <h3>Drama</h3>
+        <div class="row__posters">
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Drama</h3>
+        <div class="row__posters">
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+            <a href="#"><img class="row__poster row__posterSmall" src="/media/img/ferrari_smallposter.jpg" alt=""></a>
+        </div>
+    </div>
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY >= 100){
+                nav.classList.add('nav__black');
+            }
+            else{
+                nav.classList.remove('nav__black')
+            }
+        })
+    </script>
+</body>
+</html>

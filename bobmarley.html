@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <div class="nav" id="nav">
+        <h1>LucasFlix</h1>
+        <img class="nav_logo" src="./media/img/logo.jpg" alt="">
+    </div>
+    <main>
+        <aside>
+            <div class="ferrari">
+                <img src="/media/img/Bob_Marley_One_Love.jpg" alt="ferraribanner">
+            </div>
+        </aside>
+        <article>
+            <br></br>
+            <h2><span>Bob Marley</span></h2>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <p>O jamaicano Bob Marley supera as adversidades para se tornar um dos músicos mais famosos do mundo.
+            </p>
+            <br></br>
+            <br></br>
+            <a href="#">Assistir</a>
+        </article>
+    </main>
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY >= 90){
+                nav.classList.add('nav__black');
+            }
+            else{
+                nav.classList.remove('nav__black')
+            }
+        })
+    </script>
+</body>
+</html>

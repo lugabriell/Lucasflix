@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../media/font/bebas_neue/BebasNeue-Regular.woff2') format('woff2'),
+         url('../media/font/bebas_neue/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'poppinsbold';
+    src: url('../media/font/poppins-bold-webfont.woff2') format('woff2'),
+         url('../media/font/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'poppinslight';
+    src: url('../media/font/poppins-light-webfont.woff2') format('woff2'),
+         url('../media/font/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  @font-face {
+    font-family: 'poppinsmedium';
+    src: url('../media/font/poppins-medium-webfont.woff2') format('woff2'),
+         url('../media/font/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+  @font-face {
+     font-family: 'cocogoose';
+     src: url('../media/font/cocogoose/Cocogoose-Pro-Regular-trial.ttf');
+   
+   }
+ 
+
+   
+@font-face {
+     font-family: 'lemonmilk';
+     src: url('../media/font/lemon_milk/LEMONMILK-Regular.otf');
+
+   
+   }
+   @font-face {
+    font-family: 'roboto';
+    src: url('../media/font/roboto/Roboto-Condensed.ttf');
+  }
